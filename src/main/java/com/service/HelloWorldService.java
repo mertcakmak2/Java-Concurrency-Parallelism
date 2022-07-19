@@ -11,6 +11,7 @@ public class HelloWorldService {
         delay(1000);
         log("inside helloWorld");
         return "hello world";
+        //throw new IllegalStateException("exception");
     }
 
     public  String hello() {
