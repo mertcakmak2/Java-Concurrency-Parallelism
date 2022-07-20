@@ -29,8 +29,9 @@ public class CombineCompletableFuture {
                 .thenApply(String::toUpperCase)
                 .join();
 
-        LoggerUtil.log("Res: " + res);
+        LoggerUtil.log("Res: " + res); // => Res: HELLO WORLD HELLO HI COMPLETABLE FUTURE
 
+        // Total Time Taken : 1080
         stopWatch.stop();
         LoggerUtil.log("Total Time Taken : "+ stopWatch.getTime());
 

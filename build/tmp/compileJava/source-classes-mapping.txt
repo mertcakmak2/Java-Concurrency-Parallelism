@@ -35,11 +35,11 @@ com/LoggerUtil.java
  com.LoggerUtil
 com/service/HelloWorldService.java
  com.service.HelloWorldService
-com/main/CombineCompletableFuture.java
- com.main.CombineCompletableFuture
+com/main/ThreadPoolCompletableFuture.java
+ com.main.ThreadPoolCompletableFuture
 com/main/ComposeCompletableFutureService.java
  com.main.ComposeCompletableFutureService
 com/main/CompletableFutureServiceWithExceptionHandler.java
  com.main.CompletableFutureServiceWithExceptionHandler
-com/main/ThreadPoolCompletableFuture.java
- com.main.ThreadPoolCompletableFuture
+com/main/CombineCompletableFuture.java
+ com.main.CombineCompletableFuture

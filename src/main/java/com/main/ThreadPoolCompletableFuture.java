@@ -40,8 +40,9 @@ public class ThreadPoolCompletableFuture {
                 })
                 .join();
 
-        LoggerUtil.log("Res: " + res);
+        LoggerUtil.log("Res: " + res); // Res: HELLO WORLD HELLO HI COMPLETABLE FUTURE
 
+        // Total Time Taken : 1087
         stopWatch.stop();
         LoggerUtil.log("Total Time Taken : "+ stopWatch.getTime());
         executorService.shutdown();

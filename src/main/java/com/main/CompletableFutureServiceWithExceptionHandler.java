@@ -37,6 +37,7 @@ public class CompletableFutureServiceWithExceptionHandler {
         CompletableFuture.supplyAsync(() -> service.helloWorld())
                 .exceptionally((e) -> {
                     LoggerUtil.log("Exception: " + e.getMessage());
+                    //throw new IllegalStateException();
                     return "";
                 })
                 .thenApply(String::toUpperCase) // Transform data
